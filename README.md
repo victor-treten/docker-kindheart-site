@@ -1,4 +1,4 @@
-# Deploying the Kindheart Charity website with Docker and Nginx
+# Deploying the Kind Heart Charity website with Docker and Nginx
 
 Deployment automated with bash scripts.
 
