@@ -23,7 +23,7 @@ echo -e  "\n"
 
 echo "******************************************"
 echo "Deleting kindheart-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:kindheart
+docker rmi odennav/nginx:kindheart
 sleep 5
 echo -e  "\n"
 

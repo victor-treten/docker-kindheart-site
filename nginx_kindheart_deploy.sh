@@ -10,7 +10,7 @@ echo -e "\n"
 echo "**********************************************************"
 echo "Editing Dockerfile"
 echo "FROM nginx:alpine" > Dockerfile
-echo "COPY ./2109_the_kindheart/ /usr/share/nginx/html" >> Dockerfile
+echo "COPY ./templatemo_581_kind_heart_charity/ /usr/share/nginx/html" >> Dockerfile
 echo -e "\n"
 
 echo "**********************************************************"
@@ -50,13 +50,13 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Tag image to repository with kindheart tag"
-docker tag kindheart-image:kindheart victortreten/repo_test:kindheart
+docker tag kindheart-image:kindheart odennav/nginx:kindheart
 sleep 5
 echo -e "\n"
 
 echo "**********************************************************"
 echo "Push tagged image to dockerhub"
-docker push victortreten/repo_test:kindheart
+docker push odennav/nginx:kindheart
 sleep 5
 echo -e "\n"
 
