@@ -1,6 +1,6 @@
 # Deploying the Kind Heart Charity website with Docker
 
-Deployment automated with bash scripts in test environment.
+Deployment automated with Bash scripts in Test environment.
 
 ## Overview
 
@@ -26,7 +26,7 @@ The provided Vagrant file simplifies VM Management.
    If you intend to use git bash with Windows and not linux VM, install chocolatey [here](https://chocolatey.org/install).
 
    Open powershell terminal and use chocolatey to install git bash .
-   ```bash
+   ```console
    choco install git
    ```
 
