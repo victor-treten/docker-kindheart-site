@@ -53,7 +53,7 @@ The provided Vagrant file simplifies VM Management.
    ```bash
    sudo apt-get install git
    git clone https://github.com/odennav/docker-kindheart-site.git
-   cd docker-nginx-kindheart
+   cd docker-kindheart-site
    ```
 
 6. **Practice with the Scripts:**
