@@ -1,6 +1,6 @@
 # Deploying the Kind Heart Charity website with Docker
 
-Deployment automated with Bash scripts in Test environment.
+Deployment automated with bash scripts in Test environment.
 
 ## Overview
 
